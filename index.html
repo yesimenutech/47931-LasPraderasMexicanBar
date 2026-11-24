@@ -39,6 +39,10 @@
       "servesCuisine": ["Mexican", "Bar & Grill"],
       "telephone": "+1-405-987-5008",
       "priceRange": "$$",
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61593277605694&locale=es_LA",
+        "https://www.instagram.com/laspraderas.mexbargrill/"
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "10811 NE 23rd St",
@@ -205,7 +209,6 @@
             background-size: 32px 32px;
         }
 
-        /* Navbar */
         .navbar {
             position: fixed;
             top: 0;
@@ -393,7 +396,6 @@
             display: none;
         }
 
-        /* Hero Section - Centered Logo & Order Online Only */
         .hero {
             position: relative;
             min-height: 92vh;
@@ -470,7 +472,6 @@
                 0 0 0 4px rgba(27, 59, 38, 0.72);
         }
 
-        /* Wood & Cactus Ornamental Border Band */
         .wood-trim-band {
             background-color: var(--wood-mesquite);
             border-top: 4px solid var(--beer-gold);
@@ -505,7 +506,6 @@
             color: var(--beer-gold);
         }
 
-        /* Section Titles */
         .section-kicker {
             display: inline-flex;
             align-items: center;
@@ -550,7 +550,6 @@
             text-align: center;
         }
 
-        /* About Section */
         .about-section {
             position: relative;
             padding: 96px 0;
@@ -648,7 +647,6 @@
             transform: scale(1.03);
         }
 
-        /* Gallery Section */
         .gallery-section {
             padding: 96px 0 104px;
             color: var(--beer-foam);
@@ -811,7 +809,6 @@
             transform: translateY(-2px);
         }
 
-        /* Info & Location Section */
         .info-section {
             padding: 96px 0;
         }
@@ -944,7 +941,6 @@
             display: block;
         }
 
-        /* Footer */
         .site-footer {
             color: rgba(252, 247, 236, 0.84);
             padding: 68px 0 30px;
@@ -1016,11 +1012,11 @@
         }
 
         .social-btn {
-            width: 40px;
-            height: 40px;
+            width: 42px;
+            height: 42px;
             border-radius: 50%;
             background: var(--cactus-deep);
-            border: 1px solid rgba(242, 183, 5, 0.45);
+            border: 1px solid rgba(242, 183, 5, 0.5);
             color: var(--beer-foam);
             display: inline-flex;
             align-items: center;
@@ -1057,7 +1053,6 @@
             color: #FFE066;
         }
 
-        /* Lightbox */
         .lightbox {
             position: fixed;
             inset: 0;
@@ -1143,7 +1138,6 @@
             color: var(--wood-dark);
         }
 
-        /* Scroll Reveal */
         .reveal {
             opacity: 0;
             transform: translateY(24px);
@@ -1338,8 +1332,8 @@
                 "hours": "Mon – Thu: 11:00 AM – 9:30 PM\nFri – Sat: 11:00 AM – 10:30 PM\nSun: 11:00 AM – 8:00 PM"
             },
             "socials": [
-                { "platform": "instagram", "url": "#" },
-                { "platform": "facebook", "url": "#" }
+                { "platform": "facebook", "url": "https://www.facebook.com/profile.php?id=61593277605694&locale=es_LA" },
+                { "platform": "instagram", "url": "https://www.instagram.com/laspraderas.mexbargrill/" }
             ],
             "info": {
                 "hours_en": "Mon – Thu: 11:00 AM – 9:30 PM\nFri – Sat: 11:00 AM – 10:30 PM\nSun: 11:00 AM – 8:00 PM",
@@ -1584,7 +1578,14 @@
                     <p style="margin-top: 12px;">
                         <a href="https://laspraderasmexicanbar.onlineordering.io/en?locationId=1615930&amp;orderMode=in_store_pickup" target="_blank" rel="noopener noreferrer" class="footer-link" style="color: var(--beer-gold); font-weight: 700;" data-en="Order Online →" data-es="Ordenar en Línea →">Order Online →</a>
                     </p>
-                    <div id="social-icons" aria-label="Social media links"></div>
+                    <div id="social-icons" aria-label="Social media links">
+                        <a href="https://www.facebook.com/profile.php?id=61593277605694&amp;locale=es_LA" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/laspraderas.mexbargrill/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="footer-col">
@@ -1869,7 +1870,8 @@
                         const key = s.platform === 'twitter' || s.platform === 'x' ? 'tiktok' : s.platform;
                         const icon = SOCIAL_ICONS[key] || '';
                         if (!icon) return '';
-                        return `<a href="${s.url}" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="${key}">${icon}</a>`;
+                        const label = key.charAt(0).toUpperCase() + key.slice(1);
+                        return `<a href="${s.url}" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="${label}">${icon}</a>`;
                     }).join('');
                 }
             }
